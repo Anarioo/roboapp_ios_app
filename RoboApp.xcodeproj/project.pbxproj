@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE7B776D236FCD010065DF10 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B776C236FCD010065DF10 /* Utilities.swift */; };
 		EEBF473D235310E5006531BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF473C235310E5006531BF /* AppDelegate.swift */; };
 		EEBF473F235310E5006531BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF473E235310E5006531BF /* ViewController.swift */; };
 		EEBF4742235310E5006531BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBF4740235310E5006531BF /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE7B776C236FCD010065DF10 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		EEBF4739235310E4006531BF /* RoboApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBF473C235310E5006531BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEBF473E235310E5006531BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE7B776E236FCD100065DF10 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EE7B776C236FCD010065DF10 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		EEBF4730235310E4006531BF = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				EEBF473C235310E5006531BF /* AppDelegate.swift */,
+				EE7B776E236FCD100065DF10 /* Helpers */,
 				EEBF475523531225006531BF /* View Controllers */,
 				EEBF4740235310E5006531BF /* Main.storyboard */,
 				EEBF4743235310E5006531BF /* Assets.xcassets */,
@@ -153,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7B776D236FCD010065DF10 /* Utilities.swift in Sources */,
 				EEBF4753235311CC006531BF /* HomeViewController.swift in Sources */,
 				EEBF4751235311BD006531BF /* LoginViewController.swift in Sources */,
 				EEBF474F235311AA006531BF /* SignUpViewController.swift in Sources */,

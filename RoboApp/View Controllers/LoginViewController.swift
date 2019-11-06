@@ -24,6 +24,19 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        setUpElements()
+    }
+    
+    func setUpElements() {
+        
+        // Hide the error label
+        errorLabel.alpha = 0
+        
+        // Style the elements
+        Utilities.styleTextField(firstNameTextField)
+        Utilities.styleTextField(lastNameTextField)
+        Utilities.styleFilledButton(loginButton)
     }
 
     override func didReceiveMemoryWarning() {
