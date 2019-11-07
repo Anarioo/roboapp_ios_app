@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE10886A2373CF1E0011A543 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE1088692373CF1E0011A543 /* GoogleService-Info.plist */; };
 		EE7B776D236FCD010065DF10 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B776C236FCD010065DF10 /* Utilities.swift */; };
 		EEBF473D235310E5006531BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF473C235310E5006531BF /* AppDelegate.swift */; };
 		EEBF473F235310E5006531BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF473E235310E5006531BF /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE1088692373CF1E0011A543 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EE7B776C236FCD010065DF10 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		EEBF4739235310E4006531BF /* RoboApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBF473C235310E5006531BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				EEBF4740235310E5006531BF /* Main.storyboard */,
 				EEBF4743235310E5006531BF /* Assets.xcassets */,
 				EEBF4745235310E5006531BF /* LaunchScreen.storyboard */,
+				EE1088692373CF1E0011A543 /* GoogleService-Info.plist */,
 				EEBF4748235310E5006531BF /* Info.plist */,
 			);
 			path = RoboApp;
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEBF4747235310E5006531BF /* LaunchScreen.storyboard in Resources */,
+				EE10886A2373CF1E0011A543 /* GoogleService-Info.plist in Resources */,
 				EEBF4744235310E5006531BF /* Assets.xcassets in Resources */,
 				EEBF4742235310E5006531BF /* Main.storyboard in Resources */,
 			);

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>382231669064-1s5vch8rptnqfvuhi0nvh7svd6d9m170.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.382231669064-1s5vch8rptnqfvuhi0nvh7svd6d9m170</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAnLFbbEgGf9SEc_0UJLAN3Jeg3F6h9jHY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>382231669064</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>technology.monster.RoboApp</string>
+	<key>PROJECT_ID</key>
+	<string>customlogindemo-74647</string>
+	<key>STORAGE_BUCKET</key>
+	<string>customlogindemo-74647.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:382231669064:ios:346e9bf82ca14bd9d46b7d</string>
+	<key>DATABASE_URL</key>
+	<string>https://customlogindemo-74647.firebaseio.com</string>
+</dict>
+</plist>
