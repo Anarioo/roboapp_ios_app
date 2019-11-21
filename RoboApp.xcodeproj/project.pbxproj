@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4265FEAA23863A7600458347 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4265FEA923863A7600458347 /* Constants.swift */; };
 		63F399F6B2E3354051CA8965 /* Pods_RoboApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892C7D38B0B7FDA214FBF4F4 /* Pods_RoboApp.framework */; };
 		EE10886A2373CF1E0011A543 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE1088692373CF1E0011A543 /* GoogleService-Info.plist */; };
 		EE7B776D236FCD010065DF10 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B776C236FCD010065DF10 /* Utilities.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		12A27E6C55525DDCFA5969C6 /* Pods-RoboApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboApp.debug.xcconfig"; path = "Target Support Files/Pods-RoboApp/Pods-RoboApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3FA65397CB0A9DFCA2441509 /* Pods-RoboApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboApp.release.xcconfig"; path = "Target Support Files/Pods-RoboApp/Pods-RoboApp.release.xcconfig"; sourceTree = "<group>"; };
+		4265FEA923863A7600458347 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		892C7D38B0B7FDA214FBF4F4 /* Pods_RoboApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoboApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1088692373CF1E0011A543 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EE7B776C236FCD010065DF10 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -56,7 +58,6 @@
 				12A27E6C55525DDCFA5969C6 /* Pods-RoboApp.debug.xcconfig */,
 				3FA65397CB0A9DFCA2441509 /* Pods-RoboApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -72,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				EE7B776C236FCD010065DF10 /* Utilities.swift */,
+				4265FEA923863A7600458347 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -198,14 +200,24 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RoboApp/Pods-RoboApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +258,7 @@
 				EEBF4753235311CC006531BF /* HomeViewController.swift in Sources */,
 				EEBF4751235311BD006531BF /* LoginViewController.swift in Sources */,
 				EEBF474F235311AA006531BF /* SignUpViewController.swift in Sources */,
+				4265FEAA23863A7600458347 /* Constants.swift in Sources */,
 				EEBF473F235310E5006531BF /* ViewController.swift in Sources */,
 				EEBF473D235310E5006531BF /* AppDelegate.swift in Sources */,
 			);
